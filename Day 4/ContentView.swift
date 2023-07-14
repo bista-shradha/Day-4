@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var name = ""
     var body: some View {
         VStack {
-            Text("What is your name?")
+            Text("Hello! What is your name?")
                 .font(.title)
             TextField("Type name here...",
                       text: $name)
